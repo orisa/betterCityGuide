@@ -30,7 +30,7 @@ h3 {
 }
 
 img {
-    max-width: 100%;
+/*     max-width: 100%; */
 }
 
 /*====================
@@ -46,5 +46,71 @@ img {
 }
 
 .main-nav {
-    
+    margin-top: 5px;
+}
+
+.name a,
+.main-nav a {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.main-nav a {
+    text-transform: uppercase;
+    font-size: .95em;
+}
+
+.main-nav a:hover {
+    color: tomato;
+}
+
+
+/* Layout Containers */
+
+header{
+    padding: .5em 0;
+}
+
+.banner,
+footer {
+    text-align: center;
+}
+
+/*put content in middle of banner's height */
+.banner {
+    background: tomato;
+    padding: 3.2em 0;
+    margin-bottom: 48px;
+}
+
+.col {
+    padding: 1em;
+    border-radius: .5em;
+    background: rgba(18, 91, 132, 0.14);
+    margin: 0 .5em .8em;
+}
+
+footer {
+    padding: 2em 0;
+    background: rgba(18, 91, 132, 0.14);
+    margin-top: 30px;
+}
+
+/* Page Elements */
+
+.logo {
+    width: 190px;
+}
+
+.headline {
+    margin-bottom 0;
+}
+
+.button {
+	color: #fff;
+	text-align: center;
+	padding: .625em 1.25em;
+	background: #3acec2;
+	border-radius: .35em;
 }
