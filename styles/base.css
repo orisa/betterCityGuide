@@ -114,3 +114,30 @@ footer {
 	background: #3acec2;
 	border-radius: .35em;
 }
+
+.banner span,
+.banner h1 {
+	color: white;
+}
+
+/*====================
+	Media Queries
+====================*/
+
+@media (min-width: 768px) {
+	header,
+	main-nav {
+		width: 90%;
+		margin: 0 auto;
+ 	}
+
+}
+
+@media (min-width: 1024px) {
+	header,
+	main-nav {
+		width: 80%;
+		margin: 0 auto;
+ 	}
+
+}
